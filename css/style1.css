@@ -1,0 +1,89 @@
+/* Add this CSS code to style.css or include it in a <style> tag in your HTML file */
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Header Styles */
+.display-4 {
+    background-color: #dc3545;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Operation Box Styles */
+.operation-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.operation-box h2 {
+    color: #f7f2f2;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.operation-box form {
+    margin-top: 10px;
+}
+
+.operation-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.operation-box button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.operation-box button:hover {
+    background-color: #c82333;
+}
+
+/* Alert Styles */
+.alert {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

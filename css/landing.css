@@ -1,0 +1,50 @@
+/* landing.css */
+/* styles.css */
+#login {
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+}
+
+#register {
+    background-color: #e2e2e2;
+    padding: 20px;
+    
+}
+
+
+body {
+    
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #db345e, #b99f29);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.form-container {
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #5006d8;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.form-container button {
+    background-color: #c411ca;
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Adjust the padding for the button size */
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #e71717;
+}
+
